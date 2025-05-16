@@ -1,0 +1,8 @@
+{
+    "extends": ["next/core-web-vitals", "eslint:recommended"],
+    "rules": {
+      "no-console": "warn",          // Warnt bei console.log()
+      "react/prop-types": "off",     // Deaktiviert Prop-Types-Prüfung (für TypeScript optional)
+      "indent": ["error", 2]         // Erzwingt 2 Leerzeichen Einrückung
+    }
+  }
