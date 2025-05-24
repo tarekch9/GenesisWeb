@@ -34,7 +34,7 @@ export default function ContactPage() {
             <div className="flex items-start gap-4">
               <Phone className="w-6 h-6 mt-0.5" />
               <div>
-                <h3 className="text-xl font-semibold mb-2">Phone</h3>
+                <h3 className="text-xl font-semibold mb-2">Telefon</h3>
                 <a href="tel:+15550000000" className="text-base hover:underline">
                   +1 (555) 000-0000
                 </a>
@@ -44,7 +44,7 @@ export default function ContactPage() {
             <div className="flex items-start gap-4">
               <MapPin className="w-6 h-6 mt-0.5" />
               <div>
-                <h3 className="text-xl font-semibold mb-2">Office</h3>
+                <h3 className="text-xl font-semibold mb-2">Büro</h3>
                 <p className="text-base">123 Sample St, Sydney NSW 2000 AU</p>
               </div>
             </div>

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Image1 from "/public/Placeholder Image.png";
+import ContactModal from "../components/contactmodal"
 
 export default function hero() {
   return (
@@ -14,12 +15,13 @@ export default function hero() {
           machen. Wir helfen ihnen, ihre Vision digital zu verwirklichen
         </p>
         <div className="flex flex-col sm:flex-row gap-2 justify-center mt-6 m-4 mb-8 px-8 py-3">
-          <Link
+          {/* <Link
             href="/kontakt"
             className="inline-flex h-12 items-center justify-center rounded px-8 font-medium bg-[#271e54] hover:bg-sky-700 text-white hover:bg-opacity-90 transition-colors"
           >
             Kontakt
-          </Link>
+          </Link> */}
+          <ContactModal />
           <Link
             href="/portfolio"
             className="inline-flex h-12 items-center justify-center rounded px-8 font-medium border border-gray-300 hover:bg-gray-50 transition-colors"

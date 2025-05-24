@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
-import Modal from "./privacypolicymodal"
-
+import PrivacyModal from "./privacypolicymodal"
+import TermsServiceModal from "./termsservicemodal"
+import CookieSettingsModal from "./cookiesettingsmodal";
 
 
 export default function Footer() {
@@ -11,7 +12,6 @@ export default function Footer() {
 
   return (
     <footer className="bg-[#120b38] text-white py-12 md:py-16">
-
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Footer Content */}
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 lg:gap-12">
@@ -115,15 +115,9 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-wrap justify-center gap-4 md:gap-6">
-
-            <Modal />
-
-            <Link href="#" className="text-xs md:text-sm hover:underline text-gray-300">
-              Terms of Service
-            </Link>
-            <Link href="#" className="text-xs md:text-sm hover:underline text-gray-300">
-              Cookie Settings
-            </Link>
+            <PrivacyModal />
+            <TermsServiceModal />
+            <CookieSettingsModal />
           </div>
 
           <div className="flex gap-4 md:gap-6">

@@ -35,7 +35,7 @@ export default function TestimonialsSection() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="flex flex-col">
-               <div className="flex mb-6">
+              <div className="flex mb-6">
                 <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center m-4">
                   <Image
                     src={Obama}

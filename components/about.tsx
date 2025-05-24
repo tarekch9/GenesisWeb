@@ -22,7 +22,7 @@ export default function about() {
               href="#contact"
               className="px-8 py-3 bg-[#271e54] hover:bg-sky-700 transition-colors text-white rounded-md font-medium"
             >
-              Contact
+              Kontakt
             </Link>
 
             <Link
